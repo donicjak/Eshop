@@ -110,8 +110,8 @@ function displayCart() {
             <img src="./images/${item.tag}.jpg">
             <span>${item.name}</span>
            </div>
-           <div class="price>${item.price}</div>
-                <div class=""quantity>
+           <div class="price">${item.price}</div>
+            <div class="quantity">
                 <ion-icon name="caret-back-circle-outline"></ion-icon>
                 <span>${item.inCart}</span>
                 <ion-icon name="caret-forward-circle-outline"></ion-icon>
