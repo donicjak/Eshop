@@ -154,13 +154,19 @@ li a {
     cursor: pointer;
 }
 
-.products {
+.product {
     width: 45%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
+}
+
+.products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .products img {
